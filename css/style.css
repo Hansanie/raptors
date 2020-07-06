@@ -125,7 +125,7 @@ textarea.form-control:focus { box-shadow: inset 1500px 0px 0px rgba(0, 0, 0, 0.0
 .gray-bg { background: #eceff7; }
 .red-bg { background: #870027; }
 .yellow-bg { background: #e89418; }
-
+.blue-bg{ background-color: #1f9293 !important;}
 
 /*************************
    text color
@@ -705,3 +705,19 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
      font-weight: 400;
      margin-bottom: 2rem;
 }
+video{
+      width: 100%;
+      height: auto;
+}
+.carousel-indicators .active{
+      background-color: #870027;
+}
+.carousel-indicators li{
+      width: 2rem;
+      height: 2rem;
+}
+.carousel-indicators .active{
+      width: 2.1rem;
+      height: 2.1rem;
+}
+

@@ -125,16 +125,16 @@ slider -->
 
             <!-- LAYER NR. 1 -->
             <!-- LAYER NR. 2 -->
-            <div class="tp-caption   tp-resizeme" id="slide-2-layer-4" data-x="50" data-y="320" data-width="['auto']"
+            <!-- <div class="tp-caption   tp-resizeme" id="slide-2-layer-4" data-x="50" data-y="320" data-width="['auto']"
               data-height="['auto']" data-transform_idle="o:1;"
               data-transform_in="y:-50px;opacity:0;s:600;e:Power4.easeInOut;" data-transform_out="opacity:0;s:300;"
               data-start="2000" data-splitin="chars" data-splitout="none" data-responsive_offset="on"
               data-elementdelay="0.05"
               style="z-index: 6; white-space: nowrap; font-size: 24px; line-height: 22px; font-weight: 600; color: rgba(255, 255, 255, 1.00);font-family:Open Sans;text-transform:uppercase;">
-              We Are Raptors </div>
+              We Are Raptors </div> -->
 
             <!-- LAYER NR. 3 -->
-            <div class="tp-caption   tp-resizeme" id="slide-2-layer-7" data-x="50" data-y="center" data-voffset="30"
+            <div class="tp-caption   tp-resizeme" id="slide-2-layer-7" data-x="50" data-y="center" data-voffset="0"
               data-width="['700']" data-height="['auto']" data-transform_idle="o:1;"
               data-transform_in="x:left;s:1410;e:Power3.easeInOut;" data-transform_out="opacity:0;s:300;"
               data-start="2600" data-splitin="none" data-splitout="none" data-responsive_offset="on"
@@ -186,8 +186,8 @@ welcome -->
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="support-content text-center" style="color:rgb(135, 0, 39); background-color:white; margin-top: 0px;">
-            <p  style="color:rgb(135, 0, 39);">Enjoy our tastilicious Crispy Fried Chicken which has been marinated with handpicked spices. Take a Raptorian
+          <div class="support-content text-center" style=" background-color:#e89418; margin-top: 3rem;">
+            <p  style="color: white;">Enjoy our tastilicious Crispy Fried Chicken which has been marinated with handpicked spices. Take a Raptorian
              bite which will unveil the yummylicious taste of our homemade Fried Chicken. The hot and spicy version is going
              to make u cry for more!!</p> 
            </div>
@@ -199,9 +199,34 @@ welcome -->
 welcome -->
 
   <section class="welcome background chicken-video">
-    <video controls style="width:100%; height: auto;">
+     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000">
+    <ol class="carousel-indicators" id="indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <!-- <li data-target="#carousel-example-generic" data-slide-to="3"></li> -->
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <video autoplay muted loop>
+          <source src="videos/02.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="item">
+        <video autoplay muted loop>
+          <source src="videos/01.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="item">
+        <video autoplay muted loop>
+          <source src="videos/04.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+    <!-- <video controls style="width:100%; height: auto;">
       <source src="videos/05.mp4" type="video/mp4">
-    </video>
+    </video> -->
   </section>
   <!--=================================
 custom-content -->
@@ -213,7 +238,7 @@ custom-content -->
           <!-- <h2>Fresh and Healthy master of town </h2> -->
           <strong>experience our delicious menu</strong>
           <a target="_blank" class="btn btn-primary" href="pdf/chicken-menu.jpeg">View now</a>
-          <p class="mt-20 text-white">FOOD MENU coming soon!!!</p>
+          <!-- <p class="mt-20 text-white">FOOD MENU coming soon!!!</p> -->
         </div>
       </div>
     </div>
