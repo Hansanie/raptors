@@ -570,15 +570,23 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
       .chicken-video{
             padding: 4rem 0rem 4rem 0rem !important;
       }
-    
+      .bottom-img{
+            margin-top: 1rem;
+      }
 }
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 767px){
       .aspen{
             width: 50% !important;
             margin-left: 25%;
       }
       .first-row-fourth-img{
-            margin-top: 3rem;
+            margin-top: 3.2rem !important;
+      }
+      .bear-logo{
+            width: 50% !important;
+      }
+      .bottom-img{
+            margin-top: 1rem;
       }
 }
 @media only screen and (max-width: 992px) { 
