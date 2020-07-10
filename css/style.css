@@ -574,6 +574,11 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
             margin-top: 1rem;
       }
 }
+@media only screen and (max-width: 560px) {
+      .carousel-indicators{
+            top: 25% !important;
+      }
+} 
 @media only screen and (max-width: 767px){
       .aspen{
             width: 50% !important;
@@ -588,6 +593,35 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
       .bottom-img{
             margin-top: 1rem;
       }
+      .carousel-indicators li{
+            width: 12px;
+            height: 12px;
+      }
+      .carousel-indicators .active{
+            width: 14px;
+            height: 14px;
+      }
+      .order-text{
+            text-align: center;
+            font-size: 22px;
+      }
+}
+@media only screen and (min-width: 767px){
+      .carousel-indicators li{
+            width: 16px;
+            height: 16px;
+            margin: 2px;
+      }
+      .carousel-indicators .active{
+            width: 18px;
+            height: 18px;
+      }
+      ol{
+           margin-bottom: 20% !important;
+      }
+      .order-text{
+            text-align: right;
+      }
 }
 @media only screen and (max-width: 992px) { 
       .ordering-logo{
@@ -595,7 +629,7 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
             margin-bottom: 8rem;
       }
       .chicken-text{
-            margin-top: 8rem;
+            margin-top: 6rem;
       }
       .client-title, .why-us-title, .health-title{
             padding-top: 6rem;
@@ -669,6 +703,14 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
             width: 7rem !important;
             height: auto !important;
       }
+      .carousel-indicators li{
+            width: 20px;
+            height: 20px;
+      }
+      .carousel-indicators .active{
+            width: 22px;
+            height: 22px;
+      }
 }
 @media only screen and (min-width: 1240px) { 
       .catering-text{
@@ -717,7 +759,7 @@ video{
       width: 100%;
       height: auto;
 }
-.carousel-indicators .active{
+/* .carousel-indicators .active{
       background-color: #870027;
 }
 .carousel-indicators li{
@@ -727,5 +769,22 @@ video{
 .carousel-indicators .active{
       width: 2.1rem;
       height: 2.1rem;
+} */
+.carousel-indicators {
+      display: grid;
+      text-align: right !important;
+    float: right !important;
+    right: 6% !important;
+    left: inherit !important;
+    width: 0%;
+}
+ol{
+      margin-bottom: 25%;
+}
+.carousel-indicators li, .carousel-indicators li.active{
+      margin-bottom: 2rem;
+}
+.carousel-indicators .active{
+      background-color: #870027;
 }
 
