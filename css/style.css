@@ -848,6 +848,9 @@ ol{
             padding: 15px 20px;
             font-size: 16px;
       }
+      .para-app{
+            font-size: 16px;
+      }
 }
 @media (min-width: 768px){
       .app-logo{
@@ -864,6 +867,9 @@ ol{
             text-transform: capitalize;
             border-radius: 10px;
             padding: 10px 20px;
+      }
+      .para-app{
+            font-size: 18px;
       }
 }
 
