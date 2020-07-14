@@ -824,14 +824,60 @@ ol{
 .good-news{
       text-align: center;
 }
-.app-logo{
-      width: 30%;
-      height: auto;
-      margin-left: 35%;
-}
+
 .app-text{
       text-align: center;
+      font-weight: bold;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
 }
 .store-button{
       text-align: center;
+}
+@media (max-width: 767px){
+     .app-logo{
+            width: 40%;
+            height: auto;
+            margin-left: 30%;
+            margin-top: 4rem;
+      }
+      .btn-download{
+            width: 80%;
+            text-transform: capitalize;
+            border-radius: 10px;
+            padding: 15px 20px;
+            font-size: 16px;
+      }
+}
+@media (min-width: 768px){
+      .app-logo{
+            width: 60%;
+            height: auto;
+            margin-left: 20%;
+            margin-top: 4rem;
+      }
+      .modal-dialog{
+            margin-top: 50px;
+      }
+      .btn-download{
+            width: 80%;
+            text-transform: capitalize;
+            border-radius: 10px;
+            padding: 10px 20px;
+      }
+}
+
+.btn-download:hover{
+      background:#870027;
+      color: white;
+      opacity: 0.7;
+}
+.btn-okay{
+      background: #e89418;
+      border-radius: 40px;
+}
+.btn-okay:hover{
+      background: #e89418;
+      border-radius: 40px;
+      opacity: 0.7;
 }
