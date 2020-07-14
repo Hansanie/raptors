@@ -795,8 +795,8 @@ ol{
       height: auto;
 }
 .new-slider{
-      margin-left: 15% !important;
-      width: 70% !important;
+      margin-left: 10% !important;
+      width: 80% !important;
       height: auto !important;
        
 }
@@ -805,4 +805,33 @@ ol{
  }    
 .img-z:hover {
       transform: scale(1.2); 
+}
+/* Modal styles */
+
+.modal-title{
+      text-align: center;
+}
+.modal-header{
+      border-bottom: none;
+}
+.modal-content{
+      padding: 1rem;
+}
+.modal-footer{
+      border-top: none;
+      text-align: center;
+}
+.good-news{
+      text-align: center;
+}
+.app-logo{
+      width: 30%;
+      height: auto;
+      margin-left: 35%;
+}
+.app-text{
+      text-align: center;
+}
+.store-button{
+      text-align: center;
 }
