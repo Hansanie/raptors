@@ -863,6 +863,11 @@ ol{
       .modal-title{
             text-align: center;
       }
+      .img-logo01{
+            width: 30%;
+            height: auto;
+            margin-left: 35%;
+      }
 }
 @media (min-width: 768px){
       .app-logo{
@@ -898,9 +903,14 @@ ol{
       .modal-body{
             padding-bottom: 0px;
       }
+      .img-logo01{
+            width: 20%;
+            height: auto;
+            margin-left: 10%;
+      }
 }
 
-@media (min-width: 768px) and (max-width: 932px){
+@media (min-width: 768px) and (max-width: 1024px){
       .btn-download{
             width: 80%;
             text-transform: capitalize;
@@ -915,9 +925,12 @@ ol{
             width:60%; 
             font-weight: 700;
       } 
+      .modal-title{
+            font-size: 22px;
+      }
 }
 
-@media (min-width: 933px){
+@media (min-width: 1025px){
       .btn-download{
             width: 80%;
             text-transform: capitalize;
@@ -950,7 +963,7 @@ ol{
             font-size: 26px;
             width:50%; 
             font-weight: 700;
-            margin-top: 5rem;
+            /* margin-top: 5rem; */
       } 
       .app-logo{
             width: 70%;
@@ -962,6 +975,9 @@ ol{
             width: 100%;
             height: auto;
             margin-top: -7rem;
+      }
+      .modal-title{
+            font-size: 32px;
       }
 }
 .btn-download:hover{
@@ -977,9 +993,4 @@ ol{
       background: #e89418;
       border-radius: 40px;
       opacity: 0.7;
-}
-.img-logo01{
-      width: 20%;
-      height: auto;
-      margin-left: 40%;
 }
