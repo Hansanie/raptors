@@ -834,13 +834,12 @@ ol{
             width: 40%;
             height: auto;
             margin-left: 30%;
-            margin-top: 4rem;
+            margin-top: 2rem;
       }
       .modal-img{
-            width: 80%;
+            width: 100%;
             height: auto;
             margin-top: 3rem;
-            margin-left: 10%;
       }
       .btn-download{
             width: 80%;
@@ -849,7 +848,8 @@ ol{
             /* padding: 15px 20px;
             font-size: 16px; */
             padding: 16px 30px;
-            font-size: 18px;
+            font-size: 20px;
+            font-weight: bold;
       }
      .para-app{
             font-size: 18px;
@@ -872,27 +872,31 @@ ol{
             margin-top: 3rem;
       }
       .modal-img{
-            width: 100%;
+            width: 110%;
             height: auto;
             margin-top: -5rem;
+            margin-left: -2rem;
       }
       .modal-dialog{
-            margin-top: 50px;
+            /* margin-top: 50px; */
             width: 60%;
             margin-left: 20%;
             margin-right: 20%;
       }
-     
-      .para-app{
-            font-size: 18px;
-            width:60%; 
-            font-weight: 700;
-      } 
       .app_store_logo{
             padding-right: 0px;
       }
       .play_store_logo{
             padding-left: 0px;
+      }
+      .image-modal{
+            padding: 0px;
+      }
+      .modal-content{
+            padding: 2rem 2rem 1rem 2rem !important;
+      }
+      .modal-body{
+            padding-bottom: 0px;
       }
 }
 
@@ -902,7 +906,15 @@ ol{
             text-transform: capitalize;
             border-radius: 10px;
             margin-top: 2rem;
+            padding: 18px 30px;
+            font-size: 16px;
+            font-weight: bold;
       }
+      .para-app{
+            font-size: 16px;
+            width:60%; 
+            font-weight: 700;
+      } 
 }
 
 @media (min-width: 933px){
@@ -910,6 +922,17 @@ ol{
             width: 80%;
             text-transform: capitalize;
             border-radius: 10px;
+            margin-top: 5rem;
+            padding: 18px 30px;
+            font-size: 22px;
+            font-weight: bold;
+      }
+      .para-app{
+            font-size: 18px;
+            width:60%; 
+            font-weight: 700;
+      } 
+      .app-logo{
             margin-top: 4rem;
       }
 }
@@ -918,20 +941,22 @@ ol{
             width: 90%;
             text-transform: capitalize;
             border-radius: 10px;
-            margin-top: 5rem;
-            padding: 18px 30px;
-            font-size: 18px;
+            margin-top: 7rem;
+            padding: 22px 30px;
+            font-size: 25px;
+            font-weight: bold;
       }
       .para-app{
-            font-size: 22px;
-            width:60%; 
+            font-size: 26px;
+            width:50%; 
             font-weight: 700;
+            margin-top: 5rem;
       } 
       .app-logo{
             width: 70%;
             height: auto;
             /* margin-left: 20%; */
-            margin-top: 4rem;
+            margin-top: 6rem;
       }
       .modal-img{
             width: 100%;
@@ -952,4 +977,9 @@ ol{
       background: #e89418;
       border-radius: 40px;
       opacity: 0.7;
+}
+.img-logo01{
+      width: 20%;
+      height: auto;
+      margin-left: 40%;
 }
