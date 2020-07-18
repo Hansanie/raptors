@@ -808,7 +808,7 @@ ol{
 }
 /* Modal styles */
 
-.modal-header{
+/* .modal-header{
       border-bottom: none;
 }
 .modal-content{
@@ -845,8 +845,6 @@ ol{
             width: 80%;
             text-transform: capitalize;
             border-radius: 10px;
-            /* padding: 15px 20px;
-            font-size: 16px; */
             padding: 16px 30px;
             font-size: 20px;
             font-weight: bold;
@@ -872,7 +870,6 @@ ol{
       .app-logo{
             width: 60%;
             height: auto;
-            /* margin-left: 20%; */
             margin-top: 3rem;
       }
       .modal-img{
@@ -882,7 +879,6 @@ ol{
             margin-left: -2rem;
       }
       .modal-dialog{
-            /* margin-top: 50px; */
             width: 60%;
             margin-left: 20%;
             margin-right: 20%;
@@ -965,12 +961,10 @@ ol{
             font-size: 26px;
             width:50%; 
             font-weight: 700;
-            /* margin-top: 5rem; */
       } 
       .app-logo{
             width: 70%;
             height: auto;
-            /* margin-left: 20%; */
             margin-top: 6rem;
       }
       .modal-img{
@@ -998,4 +992,4 @@ ol{
 }
 .image-column{
       text-align: center;
-}
+} */
